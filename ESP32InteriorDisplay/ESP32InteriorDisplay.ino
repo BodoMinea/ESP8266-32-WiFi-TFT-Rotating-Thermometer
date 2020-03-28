@@ -27,7 +27,7 @@ String darkSkyAPIKey = "<< DARKSKY API KEY >>";
 String coords = "<< LAT, LONG LOCATION TO GET WEATHER CONDITIONS FOR >>";
 String weatherLang = "<< LANGUAGE SHORTCODE >>";
 
-IPAddress staticIP(192, 168, << SUBNET >>, 251);
+IPAddress staticIP(192, 168, << SUBNET >>, << IP >>);
 IPAddress gateway(192, 168, << SUBNET >>, 1);
 IPAddress subnet(255, 255, 255, 0);
 IPAddress dns(8, 8, 8, 8);
