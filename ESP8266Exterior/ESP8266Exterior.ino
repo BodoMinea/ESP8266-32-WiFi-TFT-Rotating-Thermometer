@@ -8,11 +8,11 @@
 const char* ssid = "<< WIFI SSID (NAME) >>";
 const char* password = "<< WIFI PASS >>";
 
-String deviceName = "sensorgateway";
+String deviceName = "<< DESIRED DEVICE HOSTNAME >>";
 String grafanaServer = " << GRAFANA SERVER IP >> ";
 
-String db = "home";
-const int port = 34294;
+String db = "<< GRAFANA DATABASE >>";
+const int port = << GRAFANA TCP PORT >>;
 IPAddress staticIP(192, 168, << SUBNET >>, << IP >>);
 IPAddress gateway(192, 168, << SUBNET >>, 1);
 IPAddress subnet(255, 255, 255, 0);
